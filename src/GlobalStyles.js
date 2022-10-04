@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 10px 1rem;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 400;
     outline: none;
     cursor: pointer;
   }
@@ -71,7 +71,7 @@ const GlobalStyles = createGlobalStyle`
     float: left;
     font-size: 1rem;
     line-height: 1;
-    font-weight: bold;
+    font-weight: 300;
     text-align: left;
     padding: 10px;
     margin: 10px auto;
@@ -124,7 +124,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     button{
-      background: #b00404
+      background: #b00404;
     }
   }
 

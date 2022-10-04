@@ -11,8 +11,8 @@ export const Nav = styled.div`
   
   h1{
     color: black;
-    font-weight: 500;
-    font-size: clamp(14px, 5vw, 35px);
+    font-weight: 300;
+    font-size: clamp(14px, 5vw, 25px);
   }
 
   .home{
@@ -21,10 +21,6 @@ export const Nav = styled.div`
     justify-content: space-between;
   }
 
-  .search{
-    height: 30px;
-    transform: translateY(5px)
-  }
   @media screen and (max-width: 799px){
     padding: 1rem;
     .home{
@@ -37,7 +33,7 @@ export const NavLinks = styled.div`
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  transform: translateY(10px);
+
 
   .lastChild{
     margin-left: 3rem;
@@ -45,7 +41,7 @@ export const NavLinks = styled.div`
   
   p{
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
   }
   

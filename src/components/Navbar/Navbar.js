@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Nav, NavLinks } from "./NavbarStyles";
 import { signInWithGoogle, signOutFromGoogle } from "../firebase/utils";
 import { selectCartItemsCount } from "../../redux/Cart/CartSelector";
-import search from '../../assets/search.png'
 import cart from '../../assets/cart.png'
 
 const Navbar = () => {
@@ -19,9 +18,6 @@ const Navbar = () => {
          <div className="home">
             <Link to="/">
                <h1>NUEL-STORE</h1>
-            </Link>
-            <Link to="/search">
-               <img src={search} className="search" alt="search"/>
             </Link>
          </div>
          <NavLinks>

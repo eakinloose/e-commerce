@@ -9,13 +9,11 @@ const Banner = () => {
       <>
          <BannerWrapper>
             <ImageWrapper>
-               <img src={men} alt="women clothes" />
+               <img className="men-clothes" src={men} alt="men clothes" />
                <button>
                   <Link to="/search/mens">men's Shop</Link>
                </button>
-               <p>
-                  The one stop shop for African mens clothes.
-               </p>
+               <p>The one stop shop for African mens clothes.</p>
             </ImageWrapper>
             <ImageWrapper>
                <img src={women} alt="women clothes" />
@@ -23,7 +21,8 @@ const Banner = () => {
                   <Link to="/search/womens">Women's Shop</Link>
                </button>
                <p>
-                  Walk and look glamorous in the Ankara and African native for ladies.
+                  Walk and look glamorous in the Ankara and African native for
+                  ladies.
                </p>
             </ImageWrapper>
          </BannerWrapper>

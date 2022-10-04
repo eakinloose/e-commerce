@@ -19,6 +19,10 @@ export const ImageWrapper = styled.div`
   justify-content: center;
   overflow-y: hidden;
 
+  .men-clothes{
+    transform: translateY(170px);
+  }
+
   @media screen and (max-width: 799px){
     height: 50vh;
   }
@@ -28,6 +32,7 @@ export const ImageWrapper = styled.div`
     position: absolute;
     width: 100%;
     transform: translateY(199px);
+    filter: brightness(70%);
     
     @media screen and (max-width: 799px){
       transform: translateY(140px);
@@ -46,7 +51,7 @@ export const ImageWrapper = styled.div`
   }
   P{
     width: 50%;
-    font-weight: bolder;
+    opacity: .9;
     margin-top: 1rem;
   }
 

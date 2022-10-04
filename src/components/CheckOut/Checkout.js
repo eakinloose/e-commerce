@@ -32,7 +32,7 @@ const Checkout = () => {
 
    return (
       <CheckoutWrapper>
-         <h1>checkout</h1>
+         <h1>Checkout</h1>
          <CartWrapper>
             <table>
                <tbody>

@@ -7,21 +7,24 @@ export const Wrapper = styled.div`
    margin: auto;
    padding-top: 80px;
    text-transform: capitalize;
+   font-weight: 300;
 
    img {
       width: 320px;
       height: 350px;
+      margin: 1rem 0;
       object-fit: cover;
       border-radius: 5px;
    }
    
    h1 {
-      font-weight: 500;
+      font-weight: 300;
       padding: 0.5rem 0;
    }
    h3,
    h4 {
-      margin: 0.5rem 0;
+      margin: 1rem 0;
+      font-weight: 300;
    }
    
    @media screen and (max-width: 799px){
@@ -37,7 +40,7 @@ export const Wrapper = styled.div`
    }
    
    h1 {
-      font-weight: 500;
+      font-weight: 300;
       padding: 0.5rem 0;
    }
    h3,
@@ -54,8 +57,8 @@ export const Desc = styled.div`
    justify-content: center;
 
    p {
-      line-height: 1.5;
-      width: 80%;
+      line-height: 1.8;
+      width: 90%;
       padding-bottom: 0.8rem 0rem;
    }
 

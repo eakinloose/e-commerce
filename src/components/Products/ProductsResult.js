@@ -51,7 +51,7 @@ const ProductsResult = () => {
          <Main>
             <h1>No search results</h1>
             <FormSelect {...configFilter} />
-            <p>Enable internet on your device</p>
+            <p>loading...</p>
          </Main>
       );
 
@@ -62,7 +62,7 @@ const ProductsResult = () => {
 
    return (
       <Main>
-         <h1>Products</h1>
+         <h2>Products</h2>
          <FormSelect {...configFilter} />
          <ProductWrapper>
             {product.map((item, index) => {
